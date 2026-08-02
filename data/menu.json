@@ -1,0 +1,1614 @@
+{
+  "sections": [
+    {
+      "id": "bar",
+      "label": {
+        "it": "Bar & Drinks",
+        "en": "Bar & Drinks"
+      },
+      "active": true
+    },
+    {
+      "id": "restaurant",
+      "label": {
+        "it": "Ristorante",
+        "en": "Restaurant"
+      },
+      "active": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "food",
+      "section": "bar",
+      "icon": "utensils",
+      "name": {
+        "it": "Food",
+        "en": "Food"
+      },
+      "items": [
+        {
+          "id": "burger",
+          "nome": {
+            "it": "Hamburger Villa Manin",
+            "en": "Villa Manin Burger"
+          },
+          "descrizione": {
+            "it": "Panino della casa con hamburger di manzo 200 g e salsa segreta della villa",
+            "en": "House burger with a 200 g beef patty and our signature villa sauce"
+          },
+          "prezzo": 12,
+          "image": "/dishes/burger.png",
+          "ingredients": {
+            "it": [
+              "Pane artigianale",
+              "Hamburger 200g",
+              "Pomodoro",
+              "Cheddar",
+              "Insalata",
+              "Salsa della casa"
+            ],
+            "en": [
+              "Artisan bun",
+              "200g beef patty",
+              "Tomato",
+              "Cheddar",
+              "Lettuce",
+              "House sauce"
+            ]
+          },
+          "tags": [
+            "novita",
+            "best"
+          ]
+        },
+        {
+          "id": "patatine",
+          "nome": {
+            "it": "Porzione di Patatine",
+            "en": "French Fries"
+          },
+          "descrizione": {
+            "it": "Patatine fritte servite calde con salse a scelta",
+            "en": "Crispy french fries served with sauces"
+          },
+          "prezzo": 2,
+          "image": "/dishes/patatine.png",
+          "ingredients": {
+            "it": [
+              "Patate",
+              "Sale marino",
+              "Salse a scelta"
+            ],
+            "en": [
+              "Potatoes",
+              "Sea salt",
+              "Choice of sauces"
+            ]
+          },
+          "tags": [
+            "veg"
+          ]
+        },
+        {
+          "id": "tagliere",
+          "nome": {
+            "it": "Tagliere della Dimora",
+            "en": "Villa Charcuterie Board"
+          },
+          "descrizione": {
+            "it": "Selezione di salumi e formaggi del territorio con giardiniera",
+            "en": "Selection of local cured meats and cheeses with pickled vegetables"
+          },
+          "prezzo": 16,
+          "image": "/dishes/tagliere.png",
+          "ingredients": {
+            "it": [
+              "Prosciutto San Daniele",
+              "Montasio",
+              "Salame",
+              "Giardiniera",
+              "Pane"
+            ],
+            "en": [
+              "San Daniele ham",
+              "Montasio cheese",
+              "Salami",
+              "Pickled vegetables",
+              "Bread"
+            ]
+          },
+          "tags": [
+            "share"
+          ]
+        },
+        {
+          "id": "bruschetta",
+          "nome": {
+            "it": "Bruschetta al Pomodoro",
+            "en": "Tomato Bruschetta"
+          },
+          "descrizione": {
+            "it": "Pane tostato con pomodorini freschi, basilico e olio EVO",
+            "en": "Toasted bread with fresh cherry tomatoes, basil and extra virgin olive oil"
+          },
+          "prezzo": 6,
+          "image": "/dishes/bruschetta.png",
+          "ingredients": {
+            "it": [
+              "Pane tostato",
+              "Pomodorini",
+              "Basilico",
+              "Olio EVO",
+              "Aglio"
+            ],
+            "en": [
+              "Toasted bread",
+              "Cherry tomatoes",
+              "Basil",
+              "EVO oil",
+              "Garlic"
+            ]
+          },
+          "tags": [
+            "veg",
+            "classico"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "section": "bar",
+      "icon": "martini",
+      "name": {
+        "it": "Cocktail",
+        "en": "Cocktails"
+      },
+      "items": [
+        {
+          "id": "spritz",
+          "nome": {
+            "it": "Spritz",
+            "en": "Spritz"
+          },
+          "descrizione": {
+            "it": "L'aperitivo veneto per eccellenza, servito con fetta d'arancia",
+            "en": "The classic Venetian aperitif, served with an orange slice"
+          },
+          "prezzo": 4,
+          "image": "/dishes/spritz.png",
+          "ingredients": {
+            "it": [
+              "Prosecco",
+              "Aperol",
+              "Soda",
+              "Arancia"
+            ],
+            "en": [
+              "Prosecco",
+              "Aperol",
+              "Soda water",
+              "Orange"
+            ]
+          },
+          "tags": [
+            "classico"
+          ],
+          "options": [
+            {
+              "id": "aperol",
+              "nome": {
+                "it": "Aperol",
+                "en": "Aperol"
+              },
+              "image": "/dishes/spritz_aperol.png"
+            },
+            {
+              "id": "campari",
+              "nome": {
+                "it": "Campari",
+                "en": "Campari"
+              },
+              "image": "/dishes/spritz_campari.png"
+            },
+            {
+              "id": "misto",
+              "nome": {
+                "it": "Misto",
+                "en": "Mixed"
+              },
+              "image": "/dishes/spritz_misto.png"
+            },
+            {
+              "id": "select",
+              "nome": {
+                "it": "Select",
+                "en": "Select"
+              },
+              "image": "/dishes/spritz_select.png"
+            }
+          ]
+        },
+        {
+          "id": "mojito",
+          "nome": {
+            "it": "Mojito",
+            "en": "Mojito"
+          },
+          "descrizione": {
+            "it": "Fresco e dissetante con menta, lime e rum bianco",
+            "en": "Refreshing with mint, lime, and white rum"
+          },
+          "prezzo": 7,
+          "image": "/dishes/mojito.png",
+          "ingredients": {
+            "it": [
+              "Rum Bianco",
+              "Menta Fresca",
+              "Lime",
+              "Zucchero di Canna",
+              "Soda"
+            ],
+            "en": [
+              "White Rum",
+              "Fresh Mint",
+              "Lime",
+              "Brown Sugar",
+              "Soda"
+            ]
+          },
+          "tags": [
+            "best"
+          ]
+        },
+        {
+          "id": "negroni",
+          "nome": {
+            "it": "Negroni",
+            "en": "Negroni"
+          },
+          "descrizione": {
+            "it": "Un grande classico italiano, dal sapore deciso e amaro",
+            "en": "A great Italian classic, with a strong and bitter taste"
+          },
+          "prezzo": 7,
+          "image": "/dishes/negroni.png",
+          "ingredients": {
+            "it": [
+              "Gin",
+              "Bitter Campari",
+              "Vermouth Rosso"
+            ],
+            "en": [
+              "Gin",
+              "Bitter Campari",
+              "Sweet Vermouth"
+            ]
+          },
+          "tags": [
+            "classico"
+          ]
+        },
+        {
+          "id": "americano",
+          "nome": {
+            "it": "Americano",
+            "en": "Americano"
+          },
+          "descrizione": {
+            "it": "Leggero e speziato, un aperitivo intramontabile",
+            "en": "Light and spicy, a timeless aperitif"
+          },
+          "prezzo": 6,
+          "image": "/dishes/americano.png",
+          "ingredients": {
+            "it": [
+              "Bitter Campari",
+              "Vermouth Rosso",
+              "Soda"
+            ],
+            "en": [
+              "Bitter Campari",
+              "Sweet Vermouth",
+              "Soda"
+            ]
+          },
+          "tags": [
+            "classico"
+          ]
+        },
+        {
+          "id": "gin-tonic",
+          "nome": {
+            "it": "Gin Tonic",
+            "en": "Gin Tonic"
+          },
+          "descrizione": {
+            "it": "Semplice ed elegante, servito con una fetta di limone o cetriolo",
+            "en": "Simple and elegant, served with a slice of lemon or cucumber"
+          },
+          "prezzo": 6,
+          "image": "/dishes/gintonic.png",
+          "ingredients": {
+            "it": [
+              "Gin",
+              "Acqua Tonica"
+            ],
+            "en": [
+              "Gin",
+              "Tonic Water"
+            ]
+          },
+          "tags": []
+        },
+        {
+          "id": "gin-lemon",
+          "nome": {
+            "it": "Gin Lemon",
+            "en": "Gin Lemon"
+          },
+          "descrizione": {
+            "it": "Dissetante e dal gusto agrumato",
+            "en": "Refreshing with a citrus taste"
+          },
+          "prezzo": 6,
+          "image": "/dishes/ginlemon.png",
+          "ingredients": {
+            "it": [
+              "Gin",
+              "Limonata"
+            ],
+            "en": [
+              "Gin",
+              "Lemonade"
+            ]
+          },
+          "tags": []
+        },
+        {
+          "id": "vodka-lemon",
+          "nome": {
+            "it": "Vodka Lemon",
+            "en": "Vodka Lemon"
+          },
+          "descrizione": {
+            "it": "Il re dei drink freschi da serata",
+            "en": "The king of fresh evening drinks"
+          },
+          "prezzo": 6,
+          "image": "/dishes/vodkalemon.png",
+          "ingredients": {
+            "it": [
+              "Vodka",
+              "Limonata"
+            ],
+            "en": [
+              "Vodka",
+              "Lemonade"
+            ]
+          },
+          "tags": []
+        },
+        {
+          "id": "vodka-redbull",
+          "nome": {
+            "it": "Vodka Redbull",
+            "en": "Vodka Redbull"
+          },
+          "descrizione": {
+            "it": "Energia pura per la tua serata",
+            "en": "Pure energy for your night"
+          },
+          "prezzo": 7,
+          "image": "/dishes/vodkaredbull.png",
+          "ingredients": {
+            "it": [
+              "Vodka",
+              "Redbull"
+            ],
+            "en": [
+              "Vodka",
+              "Redbull"
+            ]
+          },
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "colazione",
+      "section": "bar",
+      "icon": "coffee",
+      "name": {
+        "it": "Colazione",
+        "en": "Breakfast"
+      },
+      "items": [
+        {
+          "id": "cornetto",
+          "nome": {
+            "it": "Cornetto / Brioche",
+            "en": "Croissant"
+          },
+          "descrizione": {
+            "it": "Appena sfornato, scegli la tua farcitura preferita",
+            "en": "Freshly baked, choose your favorite filling"
+          },
+          "prezzo": 1.5,
+          "image": "/dishes/croissant.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [
+            "best"
+          ],
+          "options": [
+            {
+              "id": "vuoto",
+              "nome": {
+                "it": "Vuoto",
+                "en": "Plain"
+              },
+              "image": "/dishes/cornetto_vuoto.png"
+            },
+            {
+              "id": "crema",
+              "nome": {
+                "it": "Crema Pasticcera",
+                "en": "Custard Cream"
+              },
+              "image": "/dishes/cornetto_crema.png"
+            },
+            {
+              "id": "marmellata",
+              "nome": {
+                "it": "Marmellata",
+                "en": "Jam"
+              },
+              "image": "/dishes/cornetto_marmellata.png"
+            },
+            {
+              "id": "nutella",
+              "nome": {
+                "it": "Nutella",
+                "en": "Nutella"
+              },
+              "image": "/dishes/cornetto_nutella.png"
+            },
+            {
+              "id": "pistacchio",
+              "nome": {
+                "it": "Pistacchio",
+                "en": "Pistachio"
+              },
+              "image": "/dishes/cornetto_pistacchio.png"
+            },
+            {
+              "id": "vegano",
+              "nome": {
+                "it": "Vegano",
+                "en": "Vegan"
+              },
+              "image": "/dishes/croissant.png"
+            }
+          ]
+        },
+        {
+          "id": "spremuta",
+          "nome": {
+            "it": "Spremuta d'Arancia",
+            "en": "Fresh Orange Juice"
+          },
+          "descrizione": {
+            "it": "Spremuta fresca di arance di stagione",
+            "en": "Freshly squeezed seasonal oranges"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/spremuta.png",
+          "ingredients": {
+            "it": [
+              "Arance Fresche"
+            ],
+            "en": [
+              "Fresh Oranges"
+            ]
+          },
+          "tags": [
+            "veg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bevande",
+      "section": "bar",
+      "icon": "soda",
+      "name": {
+        "it": "Bevande",
+        "en": "Soft Drinks"
+      },
+      "items": [
+        {
+          "id": "acqua",
+          "nome": {
+            "it": "Acqua Minerale",
+            "en": "Mineral Water"
+          },
+          "descrizione": {
+            "it": "Clicca per scegliere naturale o frizzante",
+            "en": "Click to choose still or sparkling"
+          },
+          "prezzo": 1.5,
+          "image": "/dishes/water.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "naturale",
+              "nome": {
+                "it": "Naturale",
+                "en": "Still"
+              },
+              "image": "/dishes/water_still.png"
+            },
+            {
+              "id": "frizzante",
+              "nome": {
+                "it": "Frizzante",
+                "en": "Sparkling"
+              },
+              "image": "/dishes/water_sparkling.png"
+            }
+          ]
+        },
+        {
+          "id": "redbull",
+          "nome": {
+            "it": "Redbull",
+            "en": "Redbull"
+          },
+          "descrizione": {
+            "it": "Energy drink in lattina",
+            "en": "Energy drink can"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/redbull.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "the-pesca",
+          "nome": {
+            "it": "Thè alla Pesca Brodies",
+            "en": "Brodies Peach Tea"
+          },
+          "descrizione": {
+            "it": "In lattina",
+            "en": "Can"
+          },
+          "prezzo": 3,
+          "image": "/dishes/tea_peach.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "the-limone",
+          "nome": {
+            "it": "Thè al Limone Brodies",
+            "en": "Brodies Lemon Tea"
+          },
+          "descrizione": {
+            "it": "In lattina",
+            "en": "Can"
+          },
+          "prezzo": 3,
+          "image": "/dishes/tea_lemon.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "sprite",
+          "nome": {
+            "it": "Sprite",
+            "en": "Sprite"
+          },
+          "descrizione": {
+            "it": "In lattina",
+            "en": "Can"
+          },
+          "prezzo": 2.5,
+          "image": "/dishes/sprite.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "fanta",
+          "nome": {
+            "it": "Fanta",
+            "en": "Fanta"
+          },
+          "descrizione": {
+            "it": "In lattina",
+            "en": "Can"
+          },
+          "prezzo": 2.5,
+          "image": "/dishes/fanta.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "cocacola",
+          "nome": {
+            "it": "Coca Cola",
+            "en": "Coca Cola"
+          },
+          "descrizione": {
+            "it": "In lattina",
+            "en": "Can"
+          },
+          "prezzo": 2.5,
+          "image": "/dishes/coca_cola.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "succhi-frutta",
+          "nome": {
+            "it": "Succo di Frutta",
+            "en": "Fruit Juice"
+          },
+          "descrizione": {
+            "it": "Clicca per scoprire i gusti",
+            "en": "Click to discover flavors"
+          },
+          "prezzo": 2.5,
+          "image": "/dishes/succo_pesca.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "pesca",
+              "nome": {
+                "it": "Pesca",
+                "en": "Peach"
+              },
+              "image": "/dishes/succo_pesca.png"
+            },
+            {
+              "id": "albicocca",
+              "nome": {
+                "it": "Albicocca",
+                "en": "Apricot"
+              },
+              "image": "/dishes/succo_albicocca.png"
+            },
+            {
+              "id": "ananas",
+              "nome": {
+                "it": "Ananas",
+                "en": "Pineapple"
+              },
+              "image": "/dishes/succo_ananas.png"
+            },
+            {
+              "id": "ace",
+              "nome": {
+                "it": "ACE",
+                "en": "ACE"
+              },
+              "image": "/dishes/succo_ace.png"
+            },
+            {
+              "id": "mela",
+              "nome": {
+                "it": "Mela",
+                "en": "Apple"
+              },
+              "image": "/dishes/succo_mela.png"
+            },
+            {
+              "id": "arancia",
+              "nome": {
+                "it": "Arancia",
+                "en": "Orange"
+              },
+              "image": "/dishes/succo_arancia.png"
+            },
+            {
+              "id": "mirtillo",
+              "nome": {
+                "it": "Mirtillo",
+                "en": "Blueberry"
+              },
+              "image": "/dishes/succo_mirtillo.png"
+            }
+          ]
+        },
+        {
+          "id": "bubble-tea",
+          "nome": {
+            "it": "Bubble Tea",
+            "en": "Bubble Tea"
+          },
+          "descrizione": {
+            "it": "Tè freddo con perle di tapioca o popping boba",
+            "en": "Iced tea with tapioca pearls or popping boba"
+          },
+          "prezzo": 5,
+          "image": "/dishes/bubble_tea.png",
+          "ingredients": {
+            "it": [
+              "Tè",
+              "Latte/Sciroppo",
+              "Boba"
+            ],
+            "en": [
+              "Tea",
+              "Milk/Syrup",
+              "Boba"
+            ]
+          },
+          "tags": [
+            "novita"
+          ]
+        },
+        {
+          "id": "crodino",
+          "nome": {
+            "it": "Crodino",
+            "en": "Crodino"
+          },
+          "descrizione": {
+            "it": "L'analcolico per eccellenza, servito con ghiaccio e fetta d'arancia",
+            "en": "The classic non-alcoholic aperitif, served with ice and orange"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/crodino_giallo.png",
+          "ingredients": {
+            "it": [
+              "Crodino",
+              "Ghiaccio",
+              "Arancia"
+            ],
+            "en": [
+              "Crodino",
+              "Ice",
+              "Orange"
+            ]
+          },
+          "tags": [
+            "classico"
+          ],
+          "options": [
+            {
+              "id": "giallo",
+              "nome": {
+                "it": "Biondo",
+                "en": "Blonde"
+              },
+              "image": "/dishes/crodino_giallo.png"
+            },
+            {
+              "id": "rosso",
+              "nome": {
+                "it": "Rosso",
+                "en": "Red"
+              },
+              "image": "/dishes/crodino_rosso.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caffetteria",
+      "section": "bar",
+      "icon": "coffee",
+      "name": {
+        "it": "Caffetteria",
+        "en": "Coffee"
+      },
+      "items": [
+        {
+          "id": "caffe",
+          "nome": {
+            "it": "Caffè",
+            "en": "Espresso"
+          },
+          "descrizione": {
+            "it": "Espresso da miscela 100% arabica",
+            "en": "100% arabica espresso"
+          },
+          "prezzo": 1.2,
+          "image": "/dishes/espresso.png",
+          "ingredients": {
+            "it": [
+              "Miscela 100% Arabica"
+            ],
+            "en": [
+              "100% Arabica blend"
+            ]
+          },
+          "tags": []
+        },
+        {
+          "id": "cappuccino",
+          "nome": {
+            "it": "Cappuccino",
+            "en": "Cappuccino"
+          },
+          "descrizione": {
+            "it": "Espresso con tanto latte montato a vapore e schiuma morbida",
+            "en": "Espresso with steamed milk and a deep layer of foam"
+          },
+          "prezzo": 1.8,
+          "image": "/dishes/cappuccino.png",
+          "ingredients": {
+            "it": [
+              "Espresso",
+              "Latte",
+              "Schiuma di latte"
+            ],
+            "en": [
+              "Espresso",
+              "Milk",
+              "Milk foam"
+            ]
+          },
+          "tags": []
+        },
+        {
+          "id": "latte-macchiato",
+          "nome": {
+            "it": "Latte Macchiato",
+            "en": "Latte Macchiato"
+          },
+          "descrizione": {
+            "it": "Un bicchiere di latte caldo macchiato con un tocco di caffè",
+            "en": "Hot milk gently marked with espresso"
+          },
+          "prezzo": 2.2,
+          "image": "/dishes/latte_macchiato.png",
+          "ingredients": {
+            "it": [
+              "Latte",
+              "Espresso"
+            ],
+            "en": [
+              "Milk",
+              "Espresso"
+            ]
+          },
+          "tags": []
+        },
+        {
+          "id": "the-caldo",
+          "nome": {
+            "it": "Tè Caldo",
+            "en": "Hot Tea"
+          },
+          "descrizione": {
+            "it": "Selezione di tè e infusi serviti caldi",
+            "en": "Selection of hot teas and infusions"
+          },
+          "prezzo": 2.5,
+          "image": "/dishes/tea_hot.png",
+          "ingredients": {
+            "it": [
+              "Acqua calda",
+              "Miscela di Tè/Infuso"
+            ],
+            "en": [
+              "Hot water",
+              "Tea/Infusion blend"
+            ]
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "classico",
+              "nome": {
+                "it": "Classico (English Breakfast)",
+                "en": "Classic (English Breakfast)"
+              },
+              "image": "/dishes/tea_hot.png"
+            },
+            {
+              "id": "limone",
+              "nome": {
+                "it": "Al Limone",
+                "en": "Lemon"
+              },
+              "image": "/dishes/tea_hot.png"
+            },
+            {
+              "id": "frutti-rossi",
+              "nome": {
+                "it": "Ai Frutti Rossi",
+                "en": "Red Fruits"
+              },
+              "image": "/dishes/tea_hot.png"
+            },
+            {
+              "id": "verde",
+              "nome": {
+                "it": "Tè Verde",
+                "en": "Green Tea"
+              },
+              "image": "/dishes/tea_hot.png"
+            }
+          ]
+        },
+        {
+          "id": "cioccolata-calda",
+          "nome": {
+            "it": "Cioccolata Calda",
+            "en": "Hot Chocolate"
+          },
+          "descrizione": {
+            "it": "Densissima cioccolata calda, scegli se aggiungere la panna",
+            "en": "Thick hot chocolate, choose whether to add whipped cream"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/cioccolata.png",
+          "ingredients": {
+            "it": [
+              "Cacao",
+              "Latte",
+              "Zucchero"
+            ],
+            "en": [
+              "Cocoa",
+              "Milk",
+              "Sugar"
+            ]
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "senza-panna",
+              "nome": {
+                "it": "Senza Panna",
+                "en": "Without Cream"
+              },
+              "image": "/dishes/cioccolata.png"
+            },
+            {
+              "id": "con-panna",
+              "nome": {
+                "it": "Con Panna (+zsh.50)",
+                "en": "With Cream"
+              },
+              "image": "/dishes/cioccolata_panna.png"
+            }
+          ]
+        },
+        {
+          "id": "crema-caffe",
+          "nome": {
+            "it": "Crema di Caffè",
+            "en": "Cold Coffee Cream"
+          },
+          "descrizione": {
+            "it": "Fresca e vellutata, il dolce perfetto per l'estate",
+            "en": "Fresh and velvety, the perfect summer treat"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/crema_caffe.png",
+          "ingredients": {
+            "it": [
+              "Caffè espresso",
+              "Panna",
+              "Zucchero"
+            ],
+            "en": [
+              "Espresso",
+              "Cream",
+              "Sugar"
+            ]
+          },
+          "tags": [
+            "best"
+          ]
+        },
+        {
+          "id": "caffe-freddo",
+          "nome": {
+            "it": "Caffè Shakerato",
+            "en": "Shakerato Coffee"
+          },
+          "descrizione": {
+            "it": "Caffè espresso shakerato con ghiaccio e zucchero",
+            "en": "Espresso shaken with ice and sugar"
+          },
+          "prezzo": 3,
+          "image": "/dishes/caffe_freddo.png",
+          "ingredients": {
+            "it": [
+              "Espresso",
+              "Ghiaccio",
+              "Zucchero"
+            ],
+            "en": [
+              "Espresso",
+              "Ice",
+              "Sugar"
+            ]
+          },
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "birre",
+      "section": "bar",
+      "icon": "beer",
+      "name": {
+        "it": "Birre",
+        "en": "Beers"
+      },
+      "items": [
+        {
+          "id": "birra-spina",
+          "nome": {
+            "it": "Birra alla Spina",
+            "en": "Draft Beer"
+          },
+          "descrizione": {
+            "it": "Birra chiara alla spina, scegli il formato",
+            "en": "Draft lager, choose size"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/birra.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "piccola",
+              "nome": {
+                "it": "Piccola (0,25L)",
+                "en": "Small (0.25L)"
+              },
+              "prezzo": 3.5,
+              "image": "/dishes/birra.png"
+            },
+            {
+              "id": "media",
+              "nome": {
+                "it": "Media (0,4L)",
+                "en": "Medium (0.4L)"
+              },
+              "prezzo": 5,
+              "image": "/dishes/birra.png"
+            },
+            {
+              "id": "grande",
+              "nome": {
+                "it": "Grande (1L)",
+                "en": "Large (1L)"
+              },
+              "prezzo": 10,
+              "image": "/dishes/birra.png"
+            }
+          ]
+        },
+        {
+          "id": "becks",
+          "nome": {
+            "it": "Beck's",
+            "en": "Beck's"
+          },
+          "descrizione": {
+            "it": "Birra in bottiglia, 33cl",
+            "en": "Bottled beer, 33cl"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/becks.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "ichnusa",
+          "nome": {
+            "it": "Ichnusa",
+            "en": "Ichnusa"
+          },
+          "descrizione": {
+            "it": "Birra in bottiglia, 33cl",
+            "en": "Bottled beer, 33cl"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/ichnusa.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "heineken",
+          "nome": {
+            "it": "Heineken",
+            "en": "Heineken"
+          },
+          "descrizione": {
+            "it": "Birra in bottiglia, 33cl",
+            "en": "Bottled beer, 33cl"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/heineken.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "corona",
+          "nome": {
+            "it": "Corona Extra",
+            "en": "Corona Extra"
+          },
+          "descrizione": {
+            "it": "Birra in bottiglia servita con lime, 33cl",
+            "en": "Bottled beer served with lime, 33cl"
+          },
+          "prezzo": 4,
+          "image": "/dishes/corona.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "carriola-piccola",
+          "nome": {
+            "it": "Carriola di Birra (Piccola)",
+            "en": "Beer Wheelbarrow (Small)"
+          },
+          "descrizione": {
+            "it": "12 Birre in bottiglia a scelta servite in carriola con ghiaccio",
+            "en": "12 mixed bottled beers served in a wheelbarrow with ice"
+          },
+          "prezzo": 40,
+          "image": "/dishes/carriola.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [
+            "share"
+          ]
+        },
+        {
+          "id": "carriola-grande",
+          "nome": {
+            "it": "Carriola di Birra (Grande)",
+            "en": "Beer Wheelbarrow (Large)"
+          },
+          "descrizione": {
+            "it": "24 Birre in bottiglia a scelta servite in carriola con ghiaccio",
+            "en": "24 mixed bottled beers served in a wheelbarrow with ice"
+          },
+          "prezzo": 75,
+          "image": "/dishes/carriola.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [
+            "share",
+            "best"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dolci",
+      "section": "bar",
+      "icon": "cake",
+      "name": {
+        "it": "Dolci",
+        "en": "Desserts"
+      },
+      "items": [
+        {
+          "id": "tiramisu",
+          "nome": {
+            "it": "Tiramisù della Casa",
+            "en": "House Tiramisù"
+          },
+          "descrizione": {
+            "it": "Ricetta della casa con mascarpone fresco e savoiardi al caffè",
+            "en": "House recipe with fresh mascarpone and coffee-soaked ladyfingers"
+          },
+          "prezzo": 6.5,
+          "image": "/dishes/tiramisu.png",
+          "ingredients": {
+            "it": [
+              "Mascarpone",
+              "Savoiardi",
+              "Caffè",
+              "Cacao",
+              "Uova"
+            ],
+            "en": [
+              "Mascarpone",
+              "Ladyfingers",
+              "Coffee",
+              "Cocoa",
+              "Eggs"
+            ]
+          },
+          "tags": [
+            "best"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snack",
+      "section": "bar",
+      "icon": "utensils",
+      "name": {
+        "it": "Snack & Tavola Fredda",
+        "en": "Snacks & Light Bites"
+      },
+      "items": [
+        {
+          "id": "tramezzino",
+          "nome": {
+            "it": "Tramezzino",
+            "en": "Tramezzino"
+          },
+          "descrizione": {
+            "it": "Morbido tramezzino farcito, scegli il gusto",
+            "en": "Soft filled sandwich, choose your flavor"
+          },
+          "prezzo": 2.5,
+          "image": "/dishes/tramezzino.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "tonno",
+              "nome": {
+                "it": "Tonno e Cipolline",
+                "en": "Tuna & Onions"
+              },
+              "image": "/dishes/tonno_cipolline.png"
+            },
+            {
+              "id": "prosciutto",
+              "nome": {
+                "it": "Prosciutto Cotto e Funghi",
+                "en": "Ham & Mushrooms"
+              },
+              "image": "/dishes/cotto_funghi.png"
+            }
+          ]
+        },
+        {
+          "id": "toast-classico",
+          "nome": {
+            "it": "Toast Classico",
+            "en": "Classic Toast"
+          },
+          "descrizione": {
+            "it": "Toast caldo con prosciutto cotto e formaggio fondente",
+            "en": "Hot toast with ham and melted cheese"
+          },
+          "prezzo": 3.5,
+          "image": "/dishes/toast.png",
+          "ingredients": {
+            "it": [
+              "Pane in cassetta",
+              "Prosciutto Cotto",
+              "Formaggio"
+            ],
+            "en": [
+              "Sliced bread",
+              "Ham",
+              "Cheese"
+            ]
+          },
+          "tags": [
+            "classico"
+          ]
+        },
+        {
+          "id": "piadina",
+          "nome": {
+            "it": "Piadina Romagnola",
+            "en": "Piadina"
+          },
+          "descrizione": {
+            "it": "Piadina calda arrotolata",
+            "en": "Hot rolled flatbread"
+          },
+          "prezzo": 6,
+          "image": "/dishes/piadina.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "cotto",
+              "nome": {
+                "it": "Cotto e Fontina",
+                "en": "Ham & Fontina Cheese"
+              },
+              "image": "/dishes/piadina.png"
+            },
+            {
+              "id": "crudo",
+              "nome": {
+                "it": "Crudo e Fontina",
+                "en": "Prosciutto & Fontina"
+              },
+              "image": "/dishes/piadina.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cantina",
+      "section": "bar",
+      "icon": "martini",
+      "name": {
+        "it": "Cantina Vini",
+        "en": "Wine Cellar"
+      },
+      "items": [
+        {
+          "id": "calice-prosecco",
+          "nome": {
+            "it": "Calice di Prosecco",
+            "en": "Glass of Prosecco"
+          },
+          "descrizione": {
+            "it": "Fresco e frizzante, perfetto per l'aperitivo",
+            "en": "Fresh and sparkling, perfect for aperitif"
+          },
+          "prezzo": 4,
+          "image": "/dishes/calice_prosecco.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "calice-bianco",
+          "nome": {
+            "it": "Calice Vino Bianco",
+            "en": "Glass of White Wine"
+          },
+          "descrizione": {
+            "it": "Selezione della casa di vini bianchi fermi",
+            "en": "House selection of still white wines"
+          },
+          "prezzo": 4,
+          "image": "/dishes/calice_bianco.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        },
+        {
+          "id": "calice-rosso",
+          "nome": {
+            "it": "Calice Vino Rosso",
+            "en": "Glass of Red Wine"
+          },
+          "descrizione": {
+            "it": "Selezione della casa di vini rossi strutturati",
+            "en": "House selection of structured red wines"
+          },
+          "prezzo": 4.5,
+          "image": "/dishes/calice_rosso.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "amari",
+      "section": "bar",
+      "icon": "martini",
+      "name": {
+        "it": "Amari & Shot",
+        "en": "Spirits & Shots"
+      },
+      "items": [
+        {
+          "id": "amaro-classico",
+          "nome": {
+            "it": "Amari Classici",
+            "en": "Classic Digestifs"
+          },
+          "descrizione": {
+            "it": "Scegli il tuo amaro preferito per il fine pasto",
+            "en": "Choose your favorite digestif"
+          },
+          "prezzo": 4,
+          "image": "/dishes/amaro.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "montenegro",
+              "nome": {
+                "it": "Montenegro",
+                "en": "Montenegro"
+              },
+              "image": "/dishes/montenegro.png"
+            },
+            {
+              "id": "averna",
+              "nome": {
+                "it": "Averna",
+                "en": "Averna"
+              },
+              "image": "/dishes/averna.png"
+            },
+            {
+              "id": "jagermeister",
+              "nome": {
+                "it": "Jägermeister",
+                "en": "Jägermeister"
+              },
+              "image": "/dishes/jagermeister.png"
+            },
+            {
+              "id": "braulio",
+              "nome": {
+                "it": "Braulio",
+                "en": "Braulio"
+              },
+              "image": "/dishes/amaro.png"
+            },
+            {
+              "id": "capo",
+              "nome": {
+                "it": "Amaro del Capo",
+                "en": "Amaro del Capo"
+              },
+              "image": "/dishes/amarodelcapo.png"
+            }
+          ]
+        },
+        {
+          "id": "shot",
+          "nome": {
+            "it": "Shot / Cicchetto",
+            "en": "Shot"
+          },
+          "descrizione": {
+            "it": "Scegli lo shot per la serata",
+            "en": "Choose your shot for the night"
+          },
+          "prezzo": 3,
+          "image": "/dishes/shot.png",
+          "ingredients": {
+            "it": [],
+            "en": []
+          },
+          "tags": [],
+          "options": [
+            {
+              "id": "tequila",
+              "nome": {
+                "it": "Tequila",
+                "en": "Tequila"
+              },
+              "image": "/dishes/shot.png"
+            },
+            {
+              "id": "vodka",
+              "nome": {
+                "it": "Vodka",
+                "en": "Vodka"
+              },
+              "image": "/dishes/shot.png"
+            },
+            {
+              "id": "rum-pera",
+              "nome": {
+                "it": "Rum e Pera",
+                "en": "Rum & Pear"
+              },
+              "image": "/dishes/shot.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primi",
+      "section": "restaurant",
+      "icon": "utensils",
+      "name": {
+        "it": "Primi Piatti",
+        "en": "First Courses"
+      },
+      "items": [
+        {
+          "id": "spaghetti-pomodoro",
+          "nome": {
+            "it": "Spaghetti al Pomodoro",
+            "en": "Spaghetti with Tomato Sauce"
+          },
+          "descrizione": {
+            "it": "Un classico intramontabile",
+            "en": "A timeless classic"
+          },
+          "prezzo": 10,
+          "image": "/dishes/spaghetti.png",
+          "ingredients": {
+            "it": [
+              "Pasta",
+              "Pomodoro",
+              "Basilico"
+            ],
+            "en": [
+              "Pasta",
+              "Tomato",
+              "Basil"
+            ]
+          },
+          "tags": [
+            "veg",
+            "classico"
+          ]
+        }
+      ]
+    }
+  ]
+}
