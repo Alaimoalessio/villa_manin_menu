@@ -38,7 +38,7 @@
             "en": "House burger with a 200 g beef patty and our signature villa sauce"
           },
           "prezzo": 12,
-          "image": "/dishes/burger.png",
+          "image": "/dishes/burger.webp",
           "ingredients": {
             "it": [
               "Pane artigianale",
@@ -73,7 +73,7 @@
             "en": "Crispy french fries served with sauces"
           },
           "prezzo": 2,
-          "image": "/dishes/patatine.png",
+          "image": "/dishes/patatine.webp",
           "ingredients": {
             "it": [
               "Patate",
@@ -101,7 +101,7 @@
             "en": "Selection of local cured meats and cheeses with pickled vegetables"
           },
           "prezzo": 16,
-          "image": "/dishes/tagliere.png",
+          "image": "/dishes/tagliere.webp",
           "ingredients": {
             "it": [
               "Prosciutto San Daniele",
@@ -133,7 +133,7 @@
             "en": "Toasted bread with fresh cherry tomatoes, basil and extra virgin olive oil"
           },
           "prezzo": 6,
-          "image": "/dishes/bruschetta.png",
+          "image": "/dishes/bruschetta.webp",
           "ingredients": {
             "it": [
               "Pane tostato",
@@ -177,7 +177,7 @@
             "en": "The classic Venetian aperitif, served with an orange slice"
           },
           "prezzo": 4,
-          "image": "/dishes/spritz.png",
+          "image": "/dishes/spritz.webp",
           "ingredients": {
             "it": [
               "Prosecco",
@@ -202,7 +202,7 @@
                 "it": "Aperol",
                 "en": "Aperol"
               },
-              "image": "/dishes/spritz_aperol.png"
+              "image": "/dishes/spritz_aperol.webp"
             },
             {
               "id": "campari",
@@ -210,7 +210,7 @@
                 "it": "Campari",
                 "en": "Campari"
               },
-              "image": "/dishes/spritz_campari.png"
+              "image": "/dishes/spritz_campari.webp"
             },
             {
               "id": "misto",
@@ -218,7 +218,7 @@
                 "it": "Misto",
                 "en": "Mixed"
               },
-              "image": "/dishes/spritz_misto.png"
+              "image": "/dishes/spritz_misto.webp"
             },
             {
               "id": "select",
@@ -226,7 +226,7 @@
                 "it": "Select",
                 "en": "Select"
               },
-              "image": "/dishes/spritz_select.png"
+              "image": "/dishes/spritz_select.webp"
             }
           ]
         },
@@ -241,7 +241,7 @@
             "en": "Refreshing with mint, lime, and white rum"
           },
           "prezzo": 7,
-          "image": "/dishes/mojito.png",
+          "image": "/dishes/mojito.webp",
           "ingredients": {
             "it": [
               "Rum Bianco",
@@ -273,7 +273,7 @@
             "en": "A great Italian classic, with a strong and bitter taste"
           },
           "prezzo": 7,
-          "image": "/dishes/negroni.png",
+          "image": "/dishes/negroni.webp",
           "ingredients": {
             "it": [
               "Gin",
@@ -301,7 +301,7 @@
             "en": "Light and spicy, a timeless aperitif"
           },
           "prezzo": 6,
-          "image": "/dishes/americano.png",
+          "image": "/dishes/americano.webp",
           "ingredients": {
             "it": [
               "Bitter Campari",
@@ -329,7 +329,7 @@
             "en": "Simple and elegant, served with a slice of lemon or cucumber"
           },
           "prezzo": 6,
-          "image": "/dishes/gintonic.png",
+          "image": "/dishes/gintonic.webp",
           "ingredients": {
             "it": [
               "Gin",
@@ -353,7 +353,7 @@
             "en": "Refreshing with a citrus taste"
           },
           "prezzo": 6,
-          "image": "/dishes/ginlemon.png",
+          "image": "/dishes/ginlemon.webp",
           "ingredients": {
             "it": [
               "Gin",
@@ -377,7 +377,7 @@
             "en": "The king of fresh evening drinks"
           },
           "prezzo": 6,
-          "image": "/dishes/vodkalemon.png",
+          "image": "/dishes/vodkalemon.webp",
           "ingredients": {
             "it": [
               "Vodka",
@@ -401,7 +401,7 @@
             "en": "Pure energy for your night"
           },
           "prezzo": 7,
-          "image": "/dishes/vodkaredbull.png",
+          "image": "/dishes/vodkaredbull.webp",
           "ingredients": {
             "it": [
               "Vodka",
@@ -436,7 +436,7 @@
             "en": "Freshly baked, choose your favorite filling"
           },
           "prezzo": 1.5,
-          "image": "/dishes/croissant.png",
+          "image": "/dishes/croissant.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -451,7 +451,7 @@
                 "it": "Vuoto",
                 "en": "Plain"
               },
-              "image": "/dishes/cornetto_vuoto.png"
+              "image": "/dishes/cornetto_vuoto.webp"
             },
             {
               "id": "crema",
@@ -459,7 +459,7 @@
                 "it": "Crema Pasticcera",
                 "en": "Custard Cream"
               },
-              "image": "/dishes/cornetto_crema.png"
+              "image": "/dishes/cornetto_crema.webp"
             },
             {
               "id": "marmellata",
@@ -467,7 +467,7 @@
                 "it": "Marmellata",
                 "en": "Jam"
               },
-              "image": "/dishes/cornetto_marmellata.png"
+              "image": "/dishes/cornetto_marmellata.webp"
             },
             {
               "id": "nutella",
@@ -475,7 +475,7 @@
                 "it": "Nutella",
                 "en": "Nutella"
               },
-              "image": "/dishes/cornetto_nutella.png"
+              "image": "/dishes/cornetto_nutella.webp"
             },
             {
               "id": "pistacchio",
@@ -483,7 +483,7 @@
                 "it": "Pistacchio",
                 "en": "Pistachio"
               },
-              "image": "/dishes/cornetto_pistacchio.png"
+              "image": "/dishes/cornetto_pistacchio.webp"
             },
             {
               "id": "vegano",
@@ -491,7 +491,7 @@
                 "it": "Vegano",
                 "en": "Vegan"
               },
-              "image": "/dishes/croissant.png"
+              "image": "/dishes/croissant.webp"
             }
           ]
         },
@@ -506,7 +506,7 @@
             "en": "Freshly squeezed seasonal oranges"
           },
           "prezzo": 3.5,
-          "image": "/dishes/spremuta.png",
+          "image": "/dishes/spremuta.webp",
           "ingredients": {
             "it": [
               "Arance Fresche"
@@ -541,7 +541,7 @@
             "en": "Click to choose still or sparkling"
           },
           "prezzo": 1.5,
-          "image": "/dishes/water.png",
+          "image": "/dishes/water.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -554,7 +554,7 @@
                 "it": "Naturale",
                 "en": "Still"
               },
-              "image": "/dishes/water_still.png"
+              "image": "/dishes/water_still.webp"
             },
             {
               "id": "frizzante",
@@ -562,7 +562,7 @@
                 "it": "Frizzante",
                 "en": "Sparkling"
               },
-              "image": "/dishes/water_sparkling.png"
+              "image": "/dishes/water_sparkling.webp"
             }
           ]
         },
@@ -577,7 +577,7 @@
             "en": "Energy drink can"
           },
           "prezzo": 3.5,
-          "image": "/dishes/redbull.png",
+          "image": "/dishes/redbull.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -595,7 +595,7 @@
             "en": "Can"
           },
           "prezzo": 3,
-          "image": "/dishes/tea_peach.png",
+          "image": "/dishes/tea_peach.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -613,7 +613,7 @@
             "en": "Can"
           },
           "prezzo": 3,
-          "image": "/dishes/tea_lemon.png",
+          "image": "/dishes/tea_lemon.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -631,7 +631,7 @@
             "en": "Can"
           },
           "prezzo": 2.5,
-          "image": "/dishes/sprite.png",
+          "image": "/dishes/sprite.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -649,7 +649,7 @@
             "en": "Can"
           },
           "prezzo": 2.5,
-          "image": "/dishes/fanta.png",
+          "image": "/dishes/fanta.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -667,7 +667,7 @@
             "en": "Can"
           },
           "prezzo": 2.5,
-          "image": "/dishes/coca_cola.png",
+          "image": "/dishes/coca_cola.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -685,7 +685,7 @@
             "en": "Click to discover flavors"
           },
           "prezzo": 2.5,
-          "image": "/dishes/succo_pesca.png",
+          "image": "/dishes/succo_pesca.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -698,7 +698,7 @@
                 "it": "Pesca",
                 "en": "Peach"
               },
-              "image": "/dishes/succo_pesca.png"
+              "image": "/dishes/succo_pesca.webp"
             },
             {
               "id": "albicocca",
@@ -706,7 +706,7 @@
                 "it": "Albicocca",
                 "en": "Apricot"
               },
-              "image": "/dishes/succo_albicocca.png"
+              "image": "/dishes/succo_albicocca.webp"
             },
             {
               "id": "ananas",
@@ -714,7 +714,7 @@
                 "it": "Ananas",
                 "en": "Pineapple"
               },
-              "image": "/dishes/succo_ananas.png"
+              "image": "/dishes/succo_ananas.webp"
             },
             {
               "id": "ace",
@@ -722,7 +722,7 @@
                 "it": "ACE",
                 "en": "ACE"
               },
-              "image": "/dishes/succo_ace.png"
+              "image": "/dishes/succo_ace.webp"
             },
             {
               "id": "mela",
@@ -730,7 +730,7 @@
                 "it": "Mela",
                 "en": "Apple"
               },
-              "image": "/dishes/succo_mela.png"
+              "image": "/dishes/succo_mela.webp"
             },
             {
               "id": "arancia",
@@ -738,7 +738,7 @@
                 "it": "Arancia",
                 "en": "Orange"
               },
-              "image": "/dishes/succo_arancia.png"
+              "image": "/dishes/succo_arancia.webp"
             },
             {
               "id": "mirtillo",
@@ -746,7 +746,7 @@
                 "it": "Mirtillo",
                 "en": "Blueberry"
               },
-              "image": "/dishes/succo_mirtillo.png"
+              "image": "/dishes/succo_mirtillo.webp"
             }
           ]
         },
@@ -761,7 +761,7 @@
             "en": "Iced tea with tapioca pearls or popping boba"
           },
           "prezzo": 5,
-          "image": "/dishes/bubble_tea.png",
+          "image": "/dishes/bubble_tea.webp",
           "ingredients": {
             "it": [
               "Tè",
@@ -789,7 +789,7 @@
             "en": "The classic non-alcoholic aperitif, served with ice and orange"
           },
           "prezzo": 3.5,
-          "image": "/dishes/crodino_giallo.png",
+          "image": "/dishes/crodino_giallo.webp",
           "ingredients": {
             "it": [
               "Crodino",
@@ -812,7 +812,7 @@
                 "it": "Biondo",
                 "en": "Blonde"
               },
-              "image": "/dishes/crodino_giallo.png"
+              "image": "/dishes/crodino_giallo.webp"
             },
             {
               "id": "rosso",
@@ -820,7 +820,7 @@
                 "it": "Rosso",
                 "en": "Red"
               },
-              "image": "/dishes/crodino_rosso.png"
+              "image": "/dishes/crodino_rosso.webp"
             }
           ]
         }
@@ -846,7 +846,7 @@
             "en": "100% arabica espresso"
           },
           "prezzo": 1.2,
-          "image": "/dishes/espresso.png",
+          "image": "/dishes/espresso.webp",
           "ingredients": {
             "it": [
               "Miscela 100% Arabica"
@@ -868,7 +868,7 @@
             "en": "Espresso with steamed milk and a deep layer of foam"
           },
           "prezzo": 1.8,
-          "image": "/dishes/cappuccino.png",
+          "image": "/dishes/cappuccino.webp",
           "ingredients": {
             "it": [
               "Espresso",
@@ -894,7 +894,7 @@
             "en": "Hot milk gently marked with espresso"
           },
           "prezzo": 2.2,
-          "image": "/dishes/latte_macchiato.png",
+          "image": "/dishes/latte_macchiato.webp",
           "ingredients": {
             "it": [
               "Latte",
@@ -918,7 +918,7 @@
             "en": "Selection of hot teas and infusions"
           },
           "prezzo": 2.5,
-          "image": "/dishes/tea_hot.png",
+          "image": "/dishes/tea_hot.webp",
           "ingredients": {
             "it": [
               "Acqua calda",
@@ -937,7 +937,7 @@
                 "it": "Classico (English Breakfast)",
                 "en": "Classic (English Breakfast)"
               },
-              "image": "/dishes/tea_hot.png"
+              "image": "/dishes/tea_hot.webp"
             },
             {
               "id": "limone",
@@ -945,7 +945,7 @@
                 "it": "Al Limone",
                 "en": "Lemon"
               },
-              "image": "/dishes/tea_hot.png"
+              "image": "/dishes/tea_hot.webp"
             },
             {
               "id": "frutti-rossi",
@@ -953,7 +953,7 @@
                 "it": "Ai Frutti Rossi",
                 "en": "Red Fruits"
               },
-              "image": "/dishes/tea_hot.png"
+              "image": "/dishes/tea_hot.webp"
             },
             {
               "id": "verde",
@@ -961,7 +961,7 @@
                 "it": "Tè Verde",
                 "en": "Green Tea"
               },
-              "image": "/dishes/tea_hot.png"
+              "image": "/dishes/tea_hot.webp"
             }
           ]
         },
@@ -976,7 +976,7 @@
             "en": "Thick hot chocolate, choose whether to add whipped cream"
           },
           "prezzo": 3.5,
-          "image": "/dishes/cioccolata.png",
+          "image": "/dishes/cioccolata.webp",
           "ingredients": {
             "it": [
               "Cacao",
@@ -997,7 +997,7 @@
                 "it": "Senza Panna",
                 "en": "Without Cream"
               },
-              "image": "/dishes/cioccolata.png"
+              "image": "/dishes/cioccolata.webp"
             },
             {
               "id": "con-panna",
@@ -1005,7 +1005,7 @@
                 "it": "Con Panna (+zsh.50)",
                 "en": "With Cream"
               },
-              "image": "/dishes/cioccolata_panna.png"
+              "image": "/dishes/cioccolata_panna.webp"
             }
           ]
         },
@@ -1020,7 +1020,7 @@
             "en": "Fresh and velvety, the perfect summer treat"
           },
           "prezzo": 3.5,
-          "image": "/dishes/crema_caffe.png",
+          "image": "/dishes/crema_caffe.webp",
           "ingredients": {
             "it": [
               "Caffè espresso",
@@ -1048,7 +1048,7 @@
             "en": "Espresso shaken with ice and sugar"
           },
           "prezzo": 3,
-          "image": "/dishes/caffe_freddo.png",
+          "image": "/dishes/caffe_freddo.webp",
           "ingredients": {
             "it": [
               "Espresso",
@@ -1085,7 +1085,7 @@
             "en": "Draft lager, choose size"
           },
           "prezzo": 3.5,
-          "image": "/dishes/birra.png",
+          "image": "/dishes/birra.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1099,7 +1099,7 @@
                 "en": "Small (0.25L)"
               },
               "prezzo": 3.5,
-              "image": "/dishes/birra.png"
+              "image": "/dishes/birra.webp"
             },
             {
               "id": "media",
@@ -1108,7 +1108,7 @@
                 "en": "Medium (0.4L)"
               },
               "prezzo": 5,
-              "image": "/dishes/birra.png"
+              "image": "/dishes/birra.webp"
             },
             {
               "id": "grande",
@@ -1117,7 +1117,7 @@
                 "en": "Large (1L)"
               },
               "prezzo": 10,
-              "image": "/dishes/birra.png"
+              "image": "/dishes/birra.webp"
             }
           ]
         },
@@ -1132,7 +1132,7 @@
             "en": "Bottled beer, 33cl"
           },
           "prezzo": 3.5,
-          "image": "/dishes/becks.png",
+          "image": "/dishes/becks.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1150,7 +1150,7 @@
             "en": "Bottled beer, 33cl"
           },
           "prezzo": 3.5,
-          "image": "/dishes/ichnusa.png",
+          "image": "/dishes/ichnusa.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1168,7 +1168,7 @@
             "en": "Bottled beer, 33cl"
           },
           "prezzo": 3.5,
-          "image": "/dishes/heineken.png",
+          "image": "/dishes/heineken.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1186,7 +1186,7 @@
             "en": "Bottled beer served with lime, 33cl"
           },
           "prezzo": 4,
-          "image": "/dishes/corona.png",
+          "image": "/dishes/corona.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1204,7 +1204,7 @@
             "en": "12 mixed bottled beers served in a wheelbarrow with ice"
           },
           "prezzo": 40,
-          "image": "/dishes/carriola.png",
+          "image": "/dishes/carriola.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1224,7 +1224,7 @@
             "en": "24 mixed bottled beers served in a wheelbarrow with ice"
           },
           "prezzo": 75,
-          "image": "/dishes/carriola.png",
+          "image": "/dishes/carriola.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1256,7 +1256,7 @@
             "en": "House recipe with fresh mascarpone and coffee-soaked ladyfingers"
           },
           "prezzo": 6.5,
-          "image": "/dishes/tiramisu.png",
+          "image": "/dishes/tiramisu.webp",
           "ingredients": {
             "it": [
               "Mascarpone",
@@ -1299,7 +1299,7 @@
             "en": "Soft filled sandwich, choose your flavor"
           },
           "prezzo": 2.5,
-          "image": "/dishes/tramezzino.png",
+          "image": "/dishes/tramezzino.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1312,7 +1312,7 @@
                 "it": "Tonno e Cipolline",
                 "en": "Tuna & Onions"
               },
-              "image": "/dishes/tonno_cipolline.png"
+              "image": "/dishes/tonno_cipolline.webp"
             },
             {
               "id": "prosciutto",
@@ -1320,7 +1320,7 @@
                 "it": "Prosciutto Cotto e Funghi",
                 "en": "Ham & Mushrooms"
               },
-              "image": "/dishes/cotto_funghi.png"
+              "image": "/dishes/cotto_funghi.webp"
             }
           ]
         },
@@ -1335,7 +1335,7 @@
             "en": "Hot toast with ham and melted cheese"
           },
           "prezzo": 3.5,
-          "image": "/dishes/toast.png",
+          "image": "/dishes/toast.webp",
           "ingredients": {
             "it": [
               "Pane in cassetta",
@@ -1363,7 +1363,7 @@
             "en": "Hot rolled flatbread"
           },
           "prezzo": 6,
-          "image": "/dishes/piadina.png",
+          "image": "/dishes/piadina.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1376,7 +1376,7 @@
                 "it": "Cotto e Fontina",
                 "en": "Ham & Fontina Cheese"
               },
-              "image": "/dishes/piadina.png"
+              "image": "/dishes/piadina.webp"
             },
             {
               "id": "crudo",
@@ -1384,7 +1384,7 @@
                 "it": "Crudo e Fontina",
                 "en": "Prosciutto & Fontina"
               },
-              "image": "/dishes/piadina.png"
+              "image": "/dishes/piadina.webp"
             }
           ]
         }
@@ -1410,7 +1410,7 @@
             "en": "Fresh and sparkling, perfect for aperitif"
           },
           "prezzo": 4,
-          "image": "/dishes/calice_prosecco.png",
+          "image": "/dishes/calice_prosecco.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1428,7 +1428,7 @@
             "en": "House selection of still white wines"
           },
           "prezzo": 4,
-          "image": "/dishes/calice_bianco.png",
+          "image": "/dishes/calice_bianco.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1446,7 +1446,7 @@
             "en": "House selection of structured red wines"
           },
           "prezzo": 4.5,
-          "image": "/dishes/calice_rosso.png",
+          "image": "/dishes/calice_rosso.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1475,7 +1475,7 @@
             "en": "Choose your favorite digestif"
           },
           "prezzo": 4,
-          "image": "/dishes/amaro.png",
+          "image": "/dishes/amaro.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1488,7 +1488,7 @@
                 "it": "Montenegro",
                 "en": "Montenegro"
               },
-              "image": "/dishes/montenegro.png"
+              "image": "/dishes/montenegro.webp"
             },
             {
               "id": "averna",
@@ -1496,7 +1496,7 @@
                 "it": "Averna",
                 "en": "Averna"
               },
-              "image": "/dishes/averna.png"
+              "image": "/dishes/averna.webp"
             },
             {
               "id": "jagermeister",
@@ -1504,7 +1504,7 @@
                 "it": "Jägermeister",
                 "en": "Jägermeister"
               },
-              "image": "/dishes/jagermeister.png"
+              "image": "/dishes/jagermeister.webp"
             },
             {
               "id": "braulio",
@@ -1512,7 +1512,7 @@
                 "it": "Braulio",
                 "en": "Braulio"
               },
-              "image": "/dishes/amaro.png"
+              "image": "/dishes/amaro.webp"
             },
             {
               "id": "capo",
@@ -1520,7 +1520,7 @@
                 "it": "Amaro del Capo",
                 "en": "Amaro del Capo"
               },
-              "image": "/dishes/amarodelcapo.png"
+              "image": "/dishes/amarodelcapo.webp"
             }
           ]
         },
@@ -1535,7 +1535,7 @@
             "en": "Choose your shot for the night"
           },
           "prezzo": 3,
-          "image": "/dishes/shot.png",
+          "image": "/dishes/shot.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1548,7 +1548,7 @@
                 "it": "Tequila",
                 "en": "Tequila"
               },
-              "image": "/dishes/shot.png"
+              "image": "/dishes/shot.webp"
             },
             {
               "id": "vodka",
@@ -1556,7 +1556,7 @@
                 "it": "Vodka",
                 "en": "Vodka"
               },
-              "image": "/dishes/shot.png"
+              "image": "/dishes/shot.webp"
             },
             {
               "id": "rum-pera",
@@ -1564,7 +1564,7 @@
                 "it": "Rum e Pera",
                 "en": "Rum & Pear"
               },
-              "image": "/dishes/shot.png"
+              "image": "/dishes/shot.webp"
             }
           ]
         }
@@ -1590,7 +1590,7 @@
             "en": "A timeless classic"
           },
           "prezzo": 10,
-          "image": "/dishes/spaghetti.png",
+          "image": "/dishes/spaghetti.webp",
           "ingredients": {
             "it": [
               "Pasta",

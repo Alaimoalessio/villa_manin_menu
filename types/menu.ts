@@ -40,7 +40,7 @@ export interface Dish {
   descrizione?: LocalizedString | string;
   /** Prezzo in euro come numero (es. 12.5). La formattazione avviene in UI. */
   prezzo: number;
-  /** URL a una PNG con sfondo trasparente (in `public/`), es. "/dishes/burger.png". */
+  /** URL a una WebP con sfondo trasparente (in `public/`), es. "/dishes/burger.webp". */
   image: string;
   /** Ingredienti localizzati, mostrati come pillole nella modale di dettaglio. */
   ingredients: LocalizedList;
