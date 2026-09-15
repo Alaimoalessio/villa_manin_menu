@@ -5,6 +5,7 @@ import Image from "next/image";
 import { type Dish, type Language, getLocalizedText } from "@/types/menu";
 import { formatPrice } from "@/lib/format";
 import { tagInfo } from "@/lib/tags";
+import { DishPlaceholder } from "./DishPlaceholder";
 
 interface MenuItem3DProps {
   dish: Dish;
@@ -35,14 +36,20 @@ export function MenuItem3D({ dish, lang, onOpen }: MenuItem3DProps) {
         onClick={() => onOpen(dish)}
         className="relative block w-full rounded-3xl border border-[#722F37]/15 bg-white/60 p-5 pr-[7.5rem] text-left shadow-[0_14px_34px_-20px_rgba(114,47,55,0.4)] backdrop-blur-md transition-colors hover:border-[#722F37]/35"
       >
-        {/* Immagine sporgente — il cuore dell'effetto 3D */}
-        <Image
-          src={dish.image}
-          alt={nome}
-          width={224}
-          height={224}
-          className="pointer-events-none absolute -right-4 -top-4 h-28 w-28 rotate-6 object-contain drop-shadow-[0_14px_16px_rgba(70,35,25,0.35)]"
-        />
+        {/* Immagine sporgente — il cuore dell'effetto 3D; senza foto, un medaglione con l'iniziale */}
+        {dish.image ? (
+          <Image
+            src={dish.image}
+            alt={nome}
+            width={224}
+            height={224}
+            className="pointer-events-none absolute -right-4 -top-4 h-28 w-28 rotate-6 object-contain drop-shadow-[0_14px_16px_rgba(70,35,25,0.35)]"
+          />
+        ) : (
+          <span className="pointer-events-none absolute -right-2 -top-3 rotate-6">
+            <DishPlaceholder name={nome} />
+          </span>
+        )}
 
         {dish.tags.length > 0 && (
           <div className="mb-1.5 flex flex-wrap gap-1.5">

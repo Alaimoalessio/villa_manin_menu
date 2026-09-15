@@ -3,6 +3,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { X, Check, Minus, Plus } from "lucide-react";
 import Image from "next/image";
+import { DishPlaceholder } from "./DishPlaceholder";
 import { useState, useEffect } from "react";
 import { type Dish, type Language, getLocalizedList, getLocalizedText } from "@/types/menu";
 import { formatPrice } from "@/lib/format";
@@ -105,6 +106,11 @@ export function ItemDetailSheet({ dish, lang, onClose }: ItemDetailSheetProps) {
             </button>
 
             {/* Immagine gigante in primo piano, sborda sopra il pannello */}
+            {!displayImage && dish && (
+              <div className="mx-auto -mt-20 flex w-fit">
+                <DishPlaceholder name={displayName} size="lg" />
+              </div>
+            )}
             {displayImage && (
               <MotionImage
                 key={displayImage} // Forza il re-render e l'animazione al cambio immagine

@@ -133,7 +133,6 @@
             "en": "Toasted bread with fresh cherry tomatoes, basil and extra virgin olive oil"
           },
           "prezzo": 6,
-          "image": "/dishes/bruschetta.webp",
           "ingredients": {
             "it": [
               "Pane tostato",
@@ -329,7 +328,6 @@
             "en": "Simple and elegant, served with a slice of lemon or cucumber"
           },
           "prezzo": 6,
-          "image": "/dishes/gintonic.webp",
           "ingredients": {
             "it": [
               "Gin",
@@ -353,7 +351,6 @@
             "en": "Refreshing with a citrus taste"
           },
           "prezzo": 6,
-          "image": "/dishes/ginlemon.webp",
           "ingredients": {
             "it": [
               "Gin",
@@ -595,7 +592,6 @@
             "en": "Can"
           },
           "prezzo": 3,
-          "image": "/dishes/tea_peach.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -613,7 +609,6 @@
             "en": "Can"
           },
           "prezzo": 3,
-          "image": "/dishes/tea_lemon.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -685,7 +680,6 @@
             "en": "Click to discover flavors"
           },
           "prezzo": 2.5,
-          "image": "/dishes/succo_pesca.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -697,56 +691,49 @@
               "nome": {
                 "it": "Pesca",
                 "en": "Peach"
-              },
-              "image": "/dishes/succo_pesca.webp"
+              }
             },
             {
               "id": "albicocca",
               "nome": {
                 "it": "Albicocca",
                 "en": "Apricot"
-              },
-              "image": "/dishes/succo_albicocca.webp"
+              }
             },
             {
               "id": "ananas",
               "nome": {
                 "it": "Ananas",
                 "en": "Pineapple"
-              },
-              "image": "/dishes/succo_ananas.webp"
+              }
             },
             {
               "id": "ace",
               "nome": {
                 "it": "ACE",
                 "en": "ACE"
-              },
-              "image": "/dishes/succo_ace.webp"
+              }
             },
             {
               "id": "mela",
               "nome": {
                 "it": "Mela",
                 "en": "Apple"
-              },
-              "image": "/dishes/succo_mela.webp"
+              }
             },
             {
               "id": "arancia",
               "nome": {
                 "it": "Arancia",
                 "en": "Orange"
-              },
-              "image": "/dishes/succo_arancia.webp"
+              }
             },
             {
               "id": "mirtillo",
               "nome": {
                 "it": "Mirtillo",
                 "en": "Blueberry"
-              },
-              "image": "/dishes/succo_mirtillo.webp"
+              }
             }
           ]
         },
@@ -761,7 +748,6 @@
             "en": "Iced tea with tapioca pearls or popping boba"
           },
           "prezzo": 5,
-          "image": "/dishes/bubble_tea.webp",
           "ingredients": {
             "it": [
               "Tè",
@@ -868,7 +854,6 @@
             "en": "Espresso with steamed milk and a deep layer of foam"
           },
           "prezzo": 1.8,
-          "image": "/dishes/cappuccino.webp",
           "ingredients": {
             "it": [
               "Espresso",
@@ -894,7 +879,6 @@
             "en": "Hot milk gently marked with espresso"
           },
           "prezzo": 2.2,
-          "image": "/dishes/latte_macchiato.webp",
           "ingredients": {
             "it": [
               "Latte",
@@ -918,7 +902,6 @@
             "en": "Selection of hot teas and infusions"
           },
           "prezzo": 2.5,
-          "image": "/dishes/tea_hot.webp",
           "ingredients": {
             "it": [
               "Acqua calda",
@@ -936,32 +919,28 @@
               "nome": {
                 "it": "Classico (English Breakfast)",
                 "en": "Classic (English Breakfast)"
-              },
-              "image": "/dishes/tea_hot.webp"
+              }
             },
             {
               "id": "limone",
               "nome": {
                 "it": "Al Limone",
                 "en": "Lemon"
-              },
-              "image": "/dishes/tea_hot.webp"
+              }
             },
             {
               "id": "frutti-rossi",
               "nome": {
                 "it": "Ai Frutti Rossi",
                 "en": "Red Fruits"
-              },
-              "image": "/dishes/tea_hot.webp"
+              }
             },
             {
               "id": "verde",
               "nome": {
                 "it": "Tè Verde",
                 "en": "Green Tea"
-              },
-              "image": "/dishes/tea_hot.webp"
+              }
             }
           ]
         },
@@ -976,7 +955,6 @@
             "en": "Thick hot chocolate, choose whether to add whipped cream"
           },
           "prezzo": 3.5,
-          "image": "/dishes/cioccolata.webp",
           "ingredients": {
             "it": [
               "Cacao",
@@ -996,16 +974,14 @@
               "nome": {
                 "it": "Senza Panna",
                 "en": "Without Cream"
-              },
-              "image": "/dishes/cioccolata.webp"
+              }
             },
             {
               "id": "con-panna",
               "nome": {
                 "it": "Con Panna (+zsh.50)",
                 "en": "With Cream"
-              },
-              "image": "/dishes/cioccolata_panna.webp"
+              }
             }
           ]
         },
@@ -1020,7 +996,6 @@
             "en": "Fresh and velvety, the perfect summer treat"
           },
           "prezzo": 3.5,
-          "image": "/dishes/crema_caffe.webp",
           "ingredients": {
             "it": [
               "Caffè espresso",
@@ -1048,7 +1023,6 @@
             "en": "Espresso shaken with ice and sugar"
           },
           "prezzo": 3,
-          "image": "/dishes/caffe_freddo.webp",
           "ingredients": {
             "it": [
               "Espresso",
@@ -1256,7 +1230,6 @@
             "en": "House recipe with fresh mascarpone and coffee-soaked ladyfingers"
           },
           "prezzo": 6.5,
-          "image": "/dishes/tiramisu.webp",
           "ingredients": {
             "it": [
               "Mascarpone",
@@ -1363,7 +1336,6 @@
             "en": "Hot rolled flatbread"
           },
           "prezzo": 6,
-          "image": "/dishes/piadina.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1375,16 +1347,14 @@
               "nome": {
                 "it": "Cotto e Fontina",
                 "en": "Ham & Fontina Cheese"
-              },
-              "image": "/dishes/piadina.webp"
+              }
             },
             {
               "id": "crudo",
               "nome": {
                 "it": "Crudo e Fontina",
                 "en": "Prosciutto & Fontina"
-              },
-              "image": "/dishes/piadina.webp"
+              }
             }
           ]
         }
@@ -1535,7 +1505,6 @@
             "en": "Choose your shot for the night"
           },
           "prezzo": 3,
-          "image": "/dishes/shot.webp",
           "ingredients": {
             "it": [],
             "en": []
@@ -1547,24 +1516,21 @@
               "nome": {
                 "it": "Tequila",
                 "en": "Tequila"
-              },
-              "image": "/dishes/shot.webp"
+              }
             },
             {
               "id": "vodka",
               "nome": {
                 "it": "Vodka",
                 "en": "Vodka"
-              },
-              "image": "/dishes/shot.webp"
+              }
             },
             {
               "id": "rum-pera",
               "nome": {
                 "it": "Rum e Pera",
                 "en": "Rum & Pear"
-              },
-              "image": "/dishes/shot.webp"
+              }
             }
           ]
         }
@@ -1590,7 +1556,6 @@
             "en": "A timeless classic"
           },
           "prezzo": 10,
-          "image": "/dishes/spaghetti.webp",
           "ingredients": {
             "it": [
               "Pasta",
